@@ -1,3 +1,5 @@
+
+
 //Problem - 1 
 //kilometer to meter
 //Start
@@ -65,14 +67,14 @@ function hotelCost(day) {
 //Mega Friend
 //Start 
 
-function megaFriend(friendsName){
+function megaFriend(friendsName) {
     var max = friendsName[0];
-    for (var i = 0; i < friendsName.length; i++){
+    for (var i = 0; i < friendsName.length; i++) {
         var element = friendsName[i];
         if (element.length > max.length) {
             max = element;
         }
-        if ( max <= 0){
+        if (max <= 0) {
             return 'Please input something';
         }
     }
