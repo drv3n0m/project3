@@ -24,7 +24,13 @@ function budgetCalculator(watch, mobile, laptop) {
     var mobilePrice = 100 * mobile;
     var laptopPrice = 500 * laptop;
     var total = watchPrice + mobilePrice + laptopPrice;
-    if (watch, mobile, laptop < 0) {
+    if (watch < 0){
+        return "Negative Value can not be displayed"
+    }
+   if (mobile < 0){
+        return "Negative Value can not be displayed"
+    }
+   if (laptop < 0){
         return "Negative Value can not be displayed"
     }
     return total;
